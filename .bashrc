@@ -115,4 +115,9 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
-alias config='/usr/bin/git --git-dir=/home/jeelsner/.configi-repo/ --work-tree=/home/jeelsner'
+
+# Config alias for managing config files tracked in the git repo
+alias config='/usr/bin/git --git-dir=/home/jeelsner/.config-repo/ --work-tree=/home/jeelsner'
+
+# Bitwarden SSH key setup
+# export SSH_AUTH_SOCK=/home/jeelsner/snap/bitwarden/current/.bitwarden-ssh-agent.sock
