@@ -121,3 +121,4 @@ alias config='/usr/bin/git --git-dir=/home/jeelsner/.config-repo/ --work-tree=/h
 
 # Bitwarden SSH key setup
 # export SSH_AUTH_SOCK=/home/jeelsner/snap/bitwarden/current/.bitwarden-ssh-agent.sock
+. "$HOME/.cargo/env"
