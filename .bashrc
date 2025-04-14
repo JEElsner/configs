@@ -121,4 +121,6 @@ alias config='/usr/bin/git --git-dir=/home/jeelsner/.config-repo/ --work-tree=/h
 
 # Bitwarden SSH key setup
 # export SSH_AUTH_SOCK=/home/jeelsner/snap/bitwarden/current/.bitwarden-ssh-agent.sock
+
+# Rust configuration something-or-other (automatically added by rustup install)
 . "$HOME/.cargo/env"
