@@ -1,0 +1,17 @@
+[gpg]
+	format = ssh
+
+[user]
+	name = Jonathan Elsner
+	email = jeelsner@outlook.com
+
+[pull]
+	ff = only
+
+[include]
+	# Import SSH key from file not tracked in configuration repository
+	path = ~/.config/git/ssh-key
+
+[rerere]
+	enabled = true
+	autoUpdate = true
