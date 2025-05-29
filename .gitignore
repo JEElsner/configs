@@ -1,3 +1,7 @@
+# Ignore everything by default
+*
+!.gitignore
+
 .config-repo
 
 # Ignore SSH key that we really don't want to commit
