@@ -18,3 +18,7 @@
 [rerere]
 	enabled = true
 	autoUpdate = true
+
+[alias]
+	pfwl = push --force-with-lease
+	brinfo = branch -vv
