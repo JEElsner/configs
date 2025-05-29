@@ -1,17 +1,13 @@
+-- print("Hello from init.lua!")
+
 ------ Plugin setup -----
 
 require("config.lazy")
 
 ------ Settings ------
 
--- Relative numbering with absolute number on current line
-vim.opt.relativenumber = true
-vim.opt.number = true
-
--- Set tabs the way I like: actually use tabs, and at a decent width
-vim.opt.tabstop = 3
-vim.opt.shiftwidth = 3
-vim.opt.expandtab = false
+-- load basic settings shared with vim
+vim.cmd("source ~/.vimrc")
 
 -- Color theme
 vim.opt.termguicolors = true
