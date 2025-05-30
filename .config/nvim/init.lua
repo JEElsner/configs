@@ -13,6 +13,12 @@ vim.cmd("source ~/.vimrc")
 vim.opt.termguicolors = true
 vim.cmd.colorscheme('tokyonight')
 
+--- Neovide (gui) options ---
+
+if vim.g.neovide then
+   vim.g.neovide_cursor_animation_length = 0 -- disable cursor animation
+end
+
 -- LSP stuff
 -- from here: https://lsp-zero.netlify.app/docs/tutorial.html
 
