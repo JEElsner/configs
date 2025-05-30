@@ -1,6 +1,7 @@
-# Ignore everything by default
-*
-!.gitignore
+# Disabled since this I think this actually makes the home directory repo more dangerous, since I have to append --force every time I add something with git
+# # Ignore everything by default
+# *
+# !.gitignore
 
 .config-repo
 
