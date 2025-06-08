@@ -23,3 +23,6 @@
 [alias]
 	pfwl = push --force-with-lease
 	brinfo = branch -vv
+
+[init]
+	defaultBranch = main
