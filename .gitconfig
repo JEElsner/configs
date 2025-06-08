@@ -13,6 +13,7 @@
 
 [include]
 	# Import SSH key from file not tracked in configuration repository
+	# on windows, make sure this file has LF not CRLF line endings (git will not be happy if you have windows line endings)
 	path = ~/.config/git/ssh-key
 
 [rerere]
